@@ -1,5 +1,5 @@
 # CodeScanViewController
-It scans Barcode and QRCode using AVFoundation
+It scans Barcode and QRCode using AVFoundation. It also provides scanned image.
 
 How to use it?
 
@@ -35,9 +35,9 @@ How to use it?
 
 5) Can make necessary changes for UI in createBarUI method in PNScanViewController.m
  
-   Hide TopBarView 
-   Change TopBarView background
-   Change title label's text color, font'
-   Change back image as you like
+    Hide TopBarView 
+    Change TopBarView background
+    Change title label's text color, font'
+    Change back image as you like
    
 
