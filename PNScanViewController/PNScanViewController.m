@@ -171,7 +171,7 @@
     [self.view addSubview:topBarView];
     
     //create containerView
-    containerView = [[UIView alloc] initWithFrame:CGRectMake(0,64.0,windowRect.size.width,windowRect.size.height-64.0)];
+    containerView = [[UIView alloc] initWithFrame:CGRectMake(0,topBarView.frame.size.height,windowRect.size.width,windowRect.size.height-64.0)];
     containerView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:containerView];
 }
