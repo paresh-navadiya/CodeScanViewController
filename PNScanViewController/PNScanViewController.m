@@ -124,7 +124,7 @@
     [self.session addInput:self.input];
     
     [self.output setMetadataObjectsDelegate:self queue:dispatch_get_main_queue()];
-    self.output.metadataObjectTypes = @[AVMetadataObjectTypeQRCode];
+    self.output.metadataObjectTypes = self.output.availableMetadataObjectTypes; //@[AVMetadataObjectTypeQRCode];
     
     // Prepare an output for snapshotting
     self.stillImageOutput = [AVCaptureStillImageOutput new];
