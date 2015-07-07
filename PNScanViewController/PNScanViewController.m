@@ -10,8 +10,6 @@
 
 @interface PNScanViewController ()
 {
-    //UIView *topBarView;
-    //UILabel *lblTitle;
     UIView *containerView;
 }
 

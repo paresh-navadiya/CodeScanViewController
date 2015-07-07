@@ -22,15 +22,13 @@
 - (void) stopScanning;
 - (void) setTorch:(BOOL) aStatus;
 
--(IBAction)btnBackAction:(id)sender;
-
 @end
 
 @protocol PNScanViewControllerDelegate <NSObject>
 
 @optional
 
-- (void) scanViewController:(PNScanViewController *) aCtler didTapToFocusOnPoint:(CGPoint) aPoint;
-- (void) scanViewController:(PNScanViewController *) aCtler didSuccessfullyScan:(NSString *) aScannedValue andImage:(UIImage *)scannedImage;
+- (void) scanViewController:(PNScanViewController *) scanController didTapToFocusOnPoint:(CGPoint) aPoint;
+- (void) scanViewController:(PNScanViewController *) scanController didSuccessfullyScan:(NSString *) aScannedValue andImage:(UIImage *)scannedImage;
 
 @end
