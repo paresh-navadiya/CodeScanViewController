@@ -46,7 +46,7 @@
 {
     [super viewDidLoad];
     
-    [self createBarUI];
+    [self createUI];
     
     if([self isCameraAvailable]) {
         [self setupScanner];
@@ -143,7 +143,7 @@
 #pragma mark -
 #pragma mark - UI Methods
 
--(void)createBarUI
+-(void)createUI
 {
     //get rect
     CGRect windowRect = [UIScreen mainScreen].bounds;
